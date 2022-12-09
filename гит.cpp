@@ -66,6 +66,6 @@ void main()
                 if (n % 4 == 0)
                     cout << n << " ";
             });
-
+    //add coment
 }
 
