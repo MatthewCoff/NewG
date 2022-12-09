@@ -49,5 +49,14 @@ void main()
         /// 
         cout << endl;
 
+        cout << " Parnie: ";
+        for_each(srcVec.begin(), srcVec.end(), [](int n)//////лямбда вираз
+            {
+
+                if (n % 2 == 0)
+                    cout << n << " ";
+            });
+
+        cout << endl;
 }
 
