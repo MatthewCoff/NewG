@@ -58,5 +58,6 @@ void main()
             });
 
         cout << endl;
+        cout << 9/3 << endl;
 }
 
