@@ -67,5 +67,12 @@ void main()
                     cout << n << " ";
             });
     //add coment
+        cout << " kratni 5: ";
+        for_each(srcVec.begin(), srcVec.end(), [](int n)//////лямбда вираз
+            {
+
+                if (n % 5 == 0)
+                    cout << n << " ";
+            });
 }
 
