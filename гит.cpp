@@ -49,5 +49,14 @@ void main()
         /// 
         cout << endl;
 
+        cout << " kratni 3: ";
+        for_each(srcVec.begin(), srcVec.end(), [](int n)//////лямбда вираз
+            {
+
+                if (n % 3 == 0)
+                    cout << n << " ";
+            });
+
+        cout << endl;
 }
 
