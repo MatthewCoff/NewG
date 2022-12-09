@@ -49,6 +49,31 @@ void main()
         /// 
         cout << endl;
 
+        cout << " kratni 3: ";
+        for_each(srcVec.begin(), srcVec.end(), [](int n)//////лямбда вираз
+            {
+
+                if (n % 3 == 0)
+                    cout << n << " ";
+            });
+
+        cout << endl;
+        cout <<10*5<< endl;
+        cout << " kratni 4: ";
+        for_each(srcVec.begin(), srcVec.end(), [](int n)//////лямбда вираз
+            {
+
+                if (n % 4 == 0)
+                    cout << n << " ";
+            });
+    //add coment
+        cout << " kratni 5: ";
+        for_each(srcVec.begin(), srcVec.end(), [](int n)//////лямбда вираз
+            {
+
+                if (n % 5 == 0)
+                    cout << n << " ";
+            });
         cout << " Parnie: ";
         for_each(srcVec.begin(), srcVec.end(), [](int n)//////лямбда вираз
             {
