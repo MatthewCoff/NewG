@@ -58,5 +58,6 @@ void main()
             });
 
         cout << endl;
+        cout <<10*5<< endl;
 }
 
